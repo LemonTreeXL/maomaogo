@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aigou-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-parent/basic-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-eureka-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-plat-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-plat-parent/plat-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-plat-parent/plat-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-zuul-gateway" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: MAOMAOGO-EUREKA #服务名称【用于集群】
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false #是否注册到Eureka注册列表中【默认为true】
+    fetchRegistry: false #是否拉取注册信息【默认为true】
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #单机配置

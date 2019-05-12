@@ -1,0 +1,12 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: MAOMAOGO-PLAT #用于集群【先通过服务名称找到服务。再通过负载均衡算法来确定调用里面的哪一个具体的服务器】
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka #注册的Eureka服务端的地址
+  instance:
+    instance-id: maomaogo-plat-9001.com #为当前服务器添加实例的标识
+    prefer-ip-address: true #是否显示该服务的ip地址

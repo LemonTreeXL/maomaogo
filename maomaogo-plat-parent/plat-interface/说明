@@ -1,0 +1,5 @@
+plat-interface
+  用来放 domain query 还有fegin的Client接口类的 模块【用于内部服务之间的相互调用】
+  外部访问。直接暴露接口【服务。也就是Contrellor的一个方法。写在service模块中】
+
+    依赖util模块。可能会用到工具类中的工具。然后service慕课直接依赖interface模块就依赖了util模块了-【类似于java的继承表现】
