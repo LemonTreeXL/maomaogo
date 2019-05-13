@@ -22,7 +22,7 @@
       <module name="maomaogo-parent" target="1.5" />
       <module name="maomaogo-plat-parent" target="1.5" />
       <module name="maomaogo-zuul-gateway" target="1.8" />
-      <module name="plat-interface" target="1.5" />
+      <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
