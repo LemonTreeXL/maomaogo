@@ -1,21 +1,2 @@
-server:
-  port: 9527
-spring:
-  application:
-    name: MAOMAOGO-ZUUL-GATEWAY
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka #注册的Eureka服务端的地址
-  instance:
-    instance-id: maomaogo-zuul-9527.com #为当前服务器添加实例的标识
-    prefer-ip-address: true #是否显示该服务的ip地址
 
-zuul:
-  ignored-services: "*" #用*来通配符，忽略从9527端口通过服务名来调用
-  prefix: "/services" #这是所有路径的前缀
-  routes:
-    plat:  #路由器的名称
-      path: /plat/** #路由器的路径
-      service-id: maomaogo-plat #路由的名称【域名；来代替服务名称保证服务安全。集群】
 
