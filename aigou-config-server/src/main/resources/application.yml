@@ -8,16 +8,16 @@ eureka:
     instance-id: maomaogo-config-server:1299.com
     prefer-ip-address: true
 spring:
-  #profiles:
-    #active: native #读取本地配置
+  profiles:
+    active: native #读取本地配置
   application:
     name: MAOMAOGO-CONFIG-SERVER
   cloud:
     config:
       server:
-        #native:
-          #search-locations: E:/program/github/aigou-config #本地配置所在的目录
-        git:
-          uri: https://github.com/LemonTreeXL/maomaogo-parent.git #远程提交到github代码托管平台
-          username: LemonTreeXL
-          password: 19971105lxs.
+        native:
+          search-locations: F:/maomaogo-config #本地配置所在的目录
+#        git:
+#          uri: https://github.com/LemonTreeXL/maomaogo-config.git #远程提交到github代码托管平台
+#          username: LemonTreeXL
+#          password: 19971105lxs.
