@@ -7,23 +7,37 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aigou-config-server" />
+        <module name="basic-core" />
+        <module name="basic-generator" />
         <module name="basic-util" />
+        <module name="common-interface" />
+        <module name="common-service" />
         <module name="maomaogo-eureka-service" />
         <module name="maomaogo-zuul-gateway" />
         <module name="plat-interface" />
         <module name="plat-service" />
+        <module name="product-interface" />
+        <module name="product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aigou-config-server" target="1.8" />
+      <module name="basic-core" target="1.5" />
+      <module name="basic-generator" target="1.5" />
       <module name="basic-parent" target="1.5" />
       <module name="basic-util" target="1.5" />
+      <module name="common-interface" target="1.5" />
+      <module name="common-service" target="1.8" />
+      <module name="maomaogo-common-parent" target="1.5" />
       <module name="maomaogo-eureka-service" target="1.8" />
       <module name="maomaogo-parent" target="1.5" />
       <module name="maomaogo-plat-parent" target="1.5" />
+      <module name="maomaogo-product-parent" target="1.5" />
       <module name="maomaogo-zuul-gateway" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
+      <module name="product-interface" target="1.7" />
+      <module name="product-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

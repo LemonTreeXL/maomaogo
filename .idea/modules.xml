@@ -3,14 +3,22 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aigou-config-server/aigou-config-server.iml" filepath="$PROJECT_DIR$/aigou-config-server/aigou-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-core/basic-core.iml" filepath="$PROJECT_DIR$/basic-parent/basic-core/basic-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" filepath="$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomaogo-common-parent/common-interface/common-interface.iml" filepath="$PROJECT_DIR$/maomaogo-common-parent/common-interface/common-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomaogo-common-parent/common-service/common-service.iml" filepath="$PROJECT_DIR$/maomaogo-common-parent/common-service/common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomaogo-common-parent/maomaogo-common-parent.iml" filepath="$PROJECT_DIR$/maomaogo-common-parent/maomaogo-common-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/maomaogo-eureka-service/maomaogo-eureka-service.iml" filepath="$PROJECT_DIR$/maomaogo-eureka-service/maomaogo-eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/maomaogo-parent.iml" filepath="$PROJECT_DIR$/maomaogo-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/maomaogo-plat-parent/maomaogo-plat-parent.iml" filepath="$PROJECT_DIR$/maomaogo-plat-parent/maomaogo-plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomaogo-product-parent/maomaogo-product-parent.iml" filepath="$PROJECT_DIR$/maomaogo-product-parent/maomaogo-product-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/maomaogo-zuul-gateway/maomaogo-zuul-gateway.iml" filepath="$PROJECT_DIR$/maomaogo-zuul-gateway/maomaogo-zuul-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/maomaogo-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/maomaogo-plat-parent/plat-interface/plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/maomaogo-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/maomaogo-plat-parent/plat-service/plat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomaogo-product-parent/product-interface/product-interface.iml" filepath="$PROJECT_DIR$/maomaogo-product-parent/product-interface/product-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/product-service.iml" filepath="$PROJECT_DIR$/maomaogo-product-parent/product-service/product-service.iml" />
     </modules>
   </component>
 </project>

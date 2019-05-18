@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>basic-util</module>
+        <module>basic-generator</module>
+        <module>basic-core</module>
     </modules>
 
 

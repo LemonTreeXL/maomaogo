@@ -15,7 +15,7 @@ public class DocumentationConfig implements SwaggerResourcesProvider {
     public List<SwaggerResource> get() {
         List resources = new ArrayList<>();
        //product,user等都是网关中配置路径,而且如果有前缀,需要加上
-//        resources.add(swaggerResource("商品管理服务", "/services/product/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("商品管理服务", "/services/product/v2/api-docs", "2.0"));
 //        resources.add(swaggerResource("用户管理服务", "/services/user/v2/api-docs", "2.0"));
         resources.add(swaggerResource("平台管理服务", "/services/plat/v2/api-docs", "2.0"));
         return resources;

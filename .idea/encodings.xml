@@ -4,11 +4,19 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aigou-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-parent/basic-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-parent/basic-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-parent/basic-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-common-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-common-parent/common-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-common-parent/common-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maomaogo-eureka-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maomaogo-plat-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maomaogo-plat-parent/plat-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maomaogo-plat-parent/plat-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-product-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-product-parent/product-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maomaogo-product-parent/product-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maomaogo-zuul-gateway" charset="UTF-8" />
   </component>
 </project>

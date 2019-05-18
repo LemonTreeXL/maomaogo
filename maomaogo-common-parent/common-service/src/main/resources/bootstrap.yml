@@ -1,0 +1,20 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: maomaogo-common-1997.com #为当前服务器添加实例的标识
+    prefer-ip-address: true
+#拉取配置
+spring:
+  profiles:
+      active: dev
+  cloud:
+    config:
+      name: application-common #github上面名称
+      profile: ${spring.profiles.active} #环境 java -jar -D xxx jar
+      label: master #分支
+      discovery:
+        enabled: true #从eureka上面找配置服务
+        service-id: MAOMAOGO-CONFIG-SERVER #指定服务名
+      #uri: http://127.0.0.1:1299 #配置服务器 单机配置

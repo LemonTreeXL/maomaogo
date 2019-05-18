@@ -26,4 +26,7 @@ zuul:
     plat:  #路由器的名称
       path: /plat/** #路由器的路径
       service-id: maomaogo-plat #路由的名称【域名；来代替服务名称保证服务安全。集群】
+    product:  #路由器的名称
+      path: /product/** #路由器的路径
+      service-id: maomaogo-product #路由的名称【域名；来代替服务名称保证服务安全。集群】
 
