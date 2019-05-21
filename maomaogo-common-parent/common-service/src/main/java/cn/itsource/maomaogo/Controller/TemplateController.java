@@ -15,8 +15,11 @@ public class TemplateController {
 //        System.out.println("templatePath:"+templatePath);
 //        System.out.println("targetPath:"+targetPath);
 
+        //model 表示数据
         Object model = params.get("model");
+        //templatePath 模板的路径
         String templatePath = (String) params.get("templatePath");
+        //生成的网页 存放的路径
         String targetPath = (String) params.get("targetPath");
 
         VelocityUtils.staticByTemplate(model,templatePath,targetPath);

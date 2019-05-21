@@ -25,7 +25,7 @@
       <module name="basic-core" target="1.5" />
       <module name="basic-generator" target="1.5" />
       <module name="basic-parent" target="1.5" />
-      <module name="basic-util" target="1.5" />
+      <module name="basic-util" target="1.7" />
       <module name="common-interface" target="1.5" />
       <module name="common-service" target="1.8" />
       <module name="maomaogo-common-parent" target="1.5" />

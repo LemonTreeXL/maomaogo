@@ -13,6 +13,11 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>cn.itsource</groupId>
+            <artifactId>basic-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--依赖common的interface-->
         <dependency>
             <groupId>cn.itsource</groupId>

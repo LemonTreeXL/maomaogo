@@ -29,4 +29,16 @@ zuul:
     product:  #路由器的名称
       path: /product/** #路由器的路径
       service-id: maomaogo-product #路由的名称【域名；来代替服务名称保证服务安全。集群】
+    common:  #路由器的名称
+      path: /common/** #路由器的路径
+      service-id: maomaogo-common #路由的名称【域名；来代替服务名称保证服务安全。集群】
+maomaogo-product:
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
+maomaogo-common:
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
+
 
