@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb0b08e4-51ad-4d3c-8666-200a55f03a51" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_fastdfs_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/BitStatesUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/ClassUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/CodeGenerateUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/GlobalSetting.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/LetterUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/ProductStateConsts.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/PropertiesHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/StrUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/encrypt/DES.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/maomaogo/util/encrypt/MD5.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maomaogo-common-parent/common-service/src/main/java/cn/itsource/maomaogo/Controller/FastDfsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maomaogo-common-parent/common-service/src/main/java/cn/itsource/maomaogo/util/FastDfsApiOpr.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/maomaogo-common-parent/common-service/src/main/resources/fdfs_client.conf" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" />
-      <change beforePath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" afterPath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
-      <change beforePath="$PROJECT_DIR$/basic-parent/basic-util/pom.xml" afterPath="$PROJECT_DIR$/basic-parent/basic-util/pom.xml" />
       <change beforePath="$PROJECT_DIR$/basic-parent/basic-util/target/classes/cn/itsource/maomaogo/util/AjaxResult.class" afterPath="$PROJECT_DIR$/basic-parent/basic-util/target/classes/cn/itsource/maomaogo/util/AjaxResult.class" />
       <change beforePath="$PROJECT_DIR$/basic-parent/basic-util/target/classes/cn/itsource/maomaogo/util/PageList.class" afterPath="$PROJECT_DIR$/basic-parent/basic-util/target/classes/cn/itsource/maomaogo/util/PageList.class" />
-      <change beforePath="$PROJECT_DIR$/maomaogo-common-parent/common-service/common-service.iml" afterPath="$PROJECT_DIR$/maomaogo-common-parent/common-service/common-service.iml" />
-      <change beforePath="$PROJECT_DIR$/maomaogo-common-parent/common-service/pom.xml" afterPath="$PROJECT_DIR$/maomaogo-common-parent/common-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/maomaogo-common-parent/common-service/src/main/java/cn/itsource/maomaogo/Controller/TemplateController.java" afterPath="$PROJECT_DIR$/maomaogo-common-parent/common-service/src/main/java/cn/itsource/maomaogo/Controller/TemplateController.java" />
-      <change beforePath="$PROJECT_DIR$/maomaogo-product-parent/product-service/pom.xml" afterPath="$PROJECT_DIR$/maomaogo-product-parent/product-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/maomaogo-product-parent/product-service/product-service.iml" afterPath="$PROJECT_DIR$/maomaogo-product-parent/product-service/product-service.iml" />
-      <change beforePath="$PROJECT_DIR$/maomaogo-zuul-gateway/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/maomaogo-zuul-gateway/src/main/resources/bootstrap.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,204 +63,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTypeServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/impl/ProductTypeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="233" column="7" lean-forward="false" selection-start-line="233" selection-start-column="7" selection-end-line="233" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductExt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-interface/src/main/java/cn/itsource/maomaogo/domain/ProductExt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-interface/src/main/java/cn/itsource/maomaogo/domain/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3915">
-              <caret line="140" column="31" lean-forward="false" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
-              <folding>
-                <element signature="e#2584#2585#0" expanded="true" />
-                <element signature="e#2614#2615#0" expanded="true" />
-                <element signature="e#2660#2661#0" expanded="true" />
-                <element signature="e#2698#2699#0" expanded="true" />
-                <element signature="e#2736#2737#0" expanded="true" />
-                <element signature="e#2770#2771#0" expanded="true" />
-                <element signature="e#2824#2825#0" expanded="true" />
-                <element signature="e#2870#2871#0" expanded="true" />
-                <element signature="e#2904#2905#0" expanded="true" />
-                <element signature="e#2929#2930#0" expanded="true" />
-                <element signature="e#2970#2971#0" expanded="true" />
-                <element signature="e#2998#2999#0" expanded="true" />
-                <element signature="e#3029#3030#0" expanded="true" />
-                <element signature="e#3057#3058#0" expanded="true" />
-                <element signature="e#3098#3099#0" expanded="true" />
-                <element signature="e#3132#3133#0" expanded="true" />
-                <element signature="e#3159#3160#0" expanded="true" />
-                <element signature="e#3184#3185#0" expanded="true" />
-                <element signature="e#3218#3219#0" expanded="true" />
-                <element signature="e#3246#3247#0" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3314#3315#0" expanded="true" />
-                <element signature="e#3364#3365#0" expanded="true" />
-                <element signature="e#3408#3409#0" expanded="true" />
-                <element signature="e#3443#3444#0" expanded="true" />
-                <element signature="e#3476#3477#0" expanded="true" />
-                <element signature="e#3526#3527#0" expanded="true" />
-                <element signature="e#3570#3571#0" expanded="true" />
-                <element signature="e#3601#3602#0" expanded="true" />
-                <element signature="e#3628#3629#0" expanded="true" />
-                <element signature="e#3668#3669#0" expanded="true" />
-                <element signature="e#3700#3701#0" expanded="true" />
-                <element signature="e#3734#3735#0" expanded="true" />
-                <element signature="e#3764#3765#0" expanded="true" />
-                <element signature="e#3810#3811#0" expanded="true" />
-                <element signature="e#3848#3849#0" expanded="true" />
-                <element signature="e#3879#3880#0" expanded="true" />
-                <element signature="e#3906#3907#0" expanded="true" />
-                <element signature="e#3946#3947#0" expanded="true" />
-                <element signature="e#3978#3979#0" expanded="true" />
-                <element signature="e#4016#4017#0" expanded="true" />
-                <element signature="e#4052#4053#0" expanded="true" />
-                <element signature="e#4108#4109#0" expanded="true" />
-                <element signature="e#4158#4159#0" expanded="true" />
-                <element signature="e#4193#4194#0" expanded="true" />
-                <element signature="e#4226#4227#0" expanded="true" />
-                <element signature="e#4276#4277#0" expanded="true" />
-                <element signature="e#4320#4321#0" expanded="true" />
-                <element signature="e#4356#4357#0" expanded="true" />
-                <element signature="e#4390#4391#0" expanded="true" />
-                <element signature="e#4442#4443#0" expanded="true" />
-                <element signature="e#4488#4489#0" expanded="true" />
-                <element signature="e#4520#4521#0" expanded="true" />
-                <element signature="e#4550#4551#0" expanded="true" />
-                <element signature="e#4594#4595#0" expanded="true" />
-                <element signature="e#4632#4633#0" expanded="true" />
-                <element signature="e#4665#4666#0" expanded="true" />
-                <element signature="e#4693#4694#0" expanded="true" />
-                <element signature="e#4736#4737#0" expanded="true" />
-                <element signature="e#4770#4771#0" expanded="true" />
-                <element signature="e#4806#4807#0" expanded="true" />
-                <element signature="e#4837#4838#0" expanded="true" />
-                <element signature="e#4886#4887#0" expanded="true" />
-                <element signature="e#4926#4927#0" expanded="true" />
-                <element signature="e#4962#4963#0" expanded="true" />
-                <element signature="e#4993#4994#0" expanded="true" />
-                <element signature="e#5042#5043#0" expanded="true" />
-                <element signature="e#5082#5083#0" expanded="true" />
-                <element signature="e#5119#5120#0" expanded="true" />
-                <element signature="e#5151#5152#0" expanded="true" />
-                <element signature="e#5202#5203#0" expanded="true" />
-                <element signature="e#5244#5245#0" expanded="true" />
-                <element signature="e#5281#5282#0" expanded="true" />
-                <element signature="e#5313#5314#0" expanded="true" />
-                <element signature="e#5364#5365#0" expanded="true" />
-                <element signature="e#5406#5407#0" expanded="true" />
-                <element signature="e#5446#5447#0" expanded="true" />
-                <element signature="e#5481#5482#0" expanded="true" />
-                <element signature="e#5538#5539#0" expanded="true" />
-                <element signature="e#5586#5587#0" expanded="true" />
-                <element signature="e#5626#5627#0" expanded="true" />
-                <element signature="e#5661#5662#0" expanded="true" />
-                <element signature="e#5718#5719#0" expanded="true" />
-                <element signature="e#5766#5767#0" expanded="true" />
-                <element signature="e#5807#5808#0" expanded="true" />
-                <element signature="e#5844#5845#0" expanded="true" />
-                <element signature="e#5904#5905#0" expanded="true" />
-                <element signature="e#5956#5957#0" expanded="true" />
-                <element signature="e#6000#6001#0" expanded="true" />
-                <element signature="e#6039#6040#0" expanded="true" />
-                <element signature="e#6104#6105#0" expanded="true" />
-                <element signature="e#6160#6161#0" expanded="true" />
-                <element signature="e#6206#6207#0" expanded="true" />
-                <element signature="e#6247#6248#0" expanded="true" />
-                <element signature="e#6316#6317#0" expanded="true" />
-                <element signature="e#6376#6377#0" expanded="true" />
-                <element signature="e#6419#6420#0" expanded="true" />
-                <element signature="e#6457#6458#0" expanded="true" />
-                <element signature="e#6520#6521#0" expanded="true" />
-                <element signature="e#6574#6575#0" expanded="true" />
-                <element signature="e#6607#6608#0" expanded="true" />
-                <element signature="e#6636#6637#0" expanded="true" />
-                <element signature="e#6680#6681#0" expanded="true" />
-                <element signature="e#6716#6717#0" expanded="true" />
-                <element signature="e#6756#6757#0" expanded="true" />
-                <element signature="e#6792#6793#0" expanded="true" />
-                <element signature="e#6850#6851#0" expanded="true" />
-                <element signature="e#6900#6901#0" expanded="true" />
-                <element signature="e#6952#6953#0" expanded="true" />
-                <element signature="e#6982#6983#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/controller/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-              <folding>
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1844#1845#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBrandService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/IBrandService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrandServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/impl/BrandServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/IProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -429,6 +208,71 @@
             <path>
               <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
               <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maomaogo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maomaogo" type="462c0819:PsiDirectoryNode" />
+              <item name="maomaogo-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -760,7 +604,7 @@
       <workItem from="1558140747701" duration="16368000" />
       <workItem from="1558260886187" duration="11420000" />
       <workItem from="1558313522856" duration="12585000" />
-      <workItem from="1558399649636" duration="176000" />
+      <workItem from="1558399649636" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="测试git">
       <created>1557670082689</created>
@@ -818,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558150138091</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="商品管理 做了 上传图片 和商品详情的上传 使用了垂直分表 1对1  对不经常查询和修改的字段可以进行垂直分表 提高 查询效率">
+      <created>1558399937966</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558399937966</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -854,7 +705,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98842000" />
+    <option name="totallyTimeSpent" value="98966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -876,7 +727,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5913853" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59022117" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6763679" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -910,7 +761,8 @@
     <MESSAGE value="网关的配置文件" />
     <MESSAGE value="前后端联调测试" />
     <MESSAGE value="对商品类型列表 后台做了redis缓存处理  前台 首页展示 使用了页面静态化处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="对商品类型列表 后台做了redis缓存处理  前台 首页展示 使用了页面静态化处理" />
+    <MESSAGE value="商品管理 做了 上传图片 和商品详情的上传 使用了垂直分表 1对1  对不经常查询和修改的字段可以进行垂直分表 提高 查询效率" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品管理 做了 上传图片 和商品详情的上传 使用了垂直分表 1对1  对不经常查询和修改的字段可以进行垂直分表 提高 查询效率" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,6 +828,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -990,6 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -997,6 +851,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,6 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1059">
           <caret line="92" column="35" lean-forward="true" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,6 +964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,6 +1069,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,6 +1092,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,6 +1100,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,21 +1266,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/impl/ProductTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="225" column="5" lean-forward="true" selection-start-line="225" selection-start-column="5" selection-end-line="225" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="29">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maomaogo-product-parent/product-service/src/main/java/cn/itsource/maomaogo/service/impl/ProductTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="233" column="7" lean-forward="false" selection-start-line="233" selection-start-column="7" selection-end-line="233" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
