@@ -1,5 +1,6 @@
 package cn.itsource.maomaogo.controller;
 
+import cn.itsource.maomaogo.domain.Specification;
 import cn.itsource.maomaogo.service.IProductService;
 import cn.itsource.maomaogo.domain.Product;
 import cn.itsource.maomaogo.query.ProductQuery;
@@ -7,10 +8,13 @@ import cn.itsource.maomaogo.util.AjaxResult;
 import cn.itsource.maomaogo.util.PageList;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.ibatis.annotations.Param;
+import org.aspectj.weaver.loadtime.Aj;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class ProductController {
@@ -82,4 +86,84 @@ public class ProductController {
     {
         return productService.getByQuery(query);
     }
+
+    /**
+     * 上架
+     * @param id
+     * @return
+     */
+    @GetMapping("/update/{id}")
+    public AjaxResult updateUpState(@PathVariable("id") Long id){
+
+        try {
+            productService.updateUpState(id);
+            return AjaxResult.me().setSuccess(true);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("修改失败");
+        }
+    }
+
+
+
+    /**
+     * 获取商品的显示属性
+     * @param productId
+     * @return
+     */
+    @RequestMapping(value = "/product/viewProperties",method = RequestMethod.GET)
+    public List<Specification> viewProperties(@Param("productId") Long productId){
+        return productService.getViewProperties(productId);
+    }
+
+    /**
+     * 保存显示属性
+     * @param para
+     * @return
+     */
+    @RequestMapping(value = "/product/viewProperties",method = RequestMethod.POST)
+    public AjaxResult viewProperties(@RequestBody Map<String,Object> para){
+        try {
+            Long productId =  ((Integer)para.get("productId")).longValue();
+            List<Specification> specifications = (List<Specification>) para.get("viewProperties");
+            productService.saveViewProperties(specifications,productId);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("保存失败!"+e.getMessage());
+        }
+    }
+
+
+
+    /**
+     * 获取商品的SKU属性
+     * @param productId
+     * @return
+     */
+    @RequestMapping(value = "/product/skuProperties",method = RequestMethod.GET)
+    public List<Specification> skuProperties(@Param("productId") Long productId){
+        return productService.getSkuProperties(productId);
+    }
+
+    /**
+     * 保存sku属性
+     * @param para
+     * @return
+     */
+    @RequestMapping(value = "/product/skuProperties",method = RequestMethod.POST)
+    public AjaxResult skuProperties(@RequestBody Map<String,Object> para){
+        try {
+            Long productId =  ((Integer)para.get("productId")).longValue();
+            List<Specification> specifications = (List<Specification>) para.get("skuProperties");
+            List<Map<String,Object>> skus = (List<Map<String, Object>>) para.get("skus");
+            productService.saveSkuProperties(specifications,productId,skus);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("保存失败!"+e.getMessage());
+        }
+    }
+
+
 }

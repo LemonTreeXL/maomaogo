@@ -18,4 +18,6 @@ import org.apache.ibatis.annotations.Param;
 public interface ProductMapper extends BaseMapper<Product> {
 
     IPage<Product> selectByQuery(Page<Product> page, @Param("query")ProductQuery query);
+
+    void updateUpState(Long id);
 }
